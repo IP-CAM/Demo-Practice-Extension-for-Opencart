@@ -18,10 +18,19 @@
 			<class name="com.qa.opencartdemo.tests.LoginPageTest" />
 		</classes>
 	</test>
-	
-		<test name="Open Cart Accounts Page Test - FF - 83">
+
+	<test name="Open Cart Accounts Page Test - FF - 83">
 		<parameter name="browser" value="firefox" />
 		<parameter name="browserversion" value="83" />
+
+		<classes>
+			<class name="com.qa.opencartdemo.tests.AccountsPageTest" />
+		</classes>
+	</test>
+
+	<test name="Open Cart Accounts Page Test - ch - 90">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90" />
 
 		<classes>
 			<class name="com.qa.opencartdemo.tests.AccountsPageTest" />
