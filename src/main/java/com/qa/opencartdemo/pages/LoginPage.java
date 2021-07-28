@@ -32,7 +32,7 @@ public class LoginPage {
 	// Page Actions
     @Step("Getting Login Page Title")
 	public String getLoginPageTitle() {
-		return elementutil.waitForTitleIs(Constants.LOGIN_PAGE_TITLE, 5);
+		return elementutil.waitForTitleIs(Constants.LOGIN_PAGE_TITLE, 15);
 	}
     
     @Step("Forgot password Link")

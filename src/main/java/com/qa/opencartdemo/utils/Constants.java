@@ -27,11 +27,7 @@ public class Constants {
 	}
 	
 	
-	public static List<String> getExpectedAccLinkList(){
-		return Arrays.asList("My Account","Edit Account","Password","Address Book","Wish List","Order History",
-				"Downloads","Recurring payments","Reward Points","Returns","Transactions",	"Newsletter","Logout");
 
 		
 		
 	}
-}
